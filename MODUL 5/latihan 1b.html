@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Latihan 1b - Logo UNS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    img { 
+      display: none; /* default disembunyikan */
+      max-width: 200px;
+      height: auto;
+    }
+
+    /* tampilkan hanya jika layar lebih dari 1024px */
+    @media only screen and (min-width: 1025px) {
+      img {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h3>Latihan 1b - Media Query</h3>
+  <p>Logo UNS hanya muncul jika ukuran layar lebih dari 1024px</p>
+
+  <!-- ganti path logo sesuai file kamu -->
+  <img src="logo.png" alt="Logo UNS">
+</body>
+</html>
